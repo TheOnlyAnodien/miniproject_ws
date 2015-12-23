@@ -1,0 +1,20 @@
+<launch>
+ <node 
+  pkg="turtlesim"
+  type="turtlesim_node"
+  name="turtlesim"
+  required="true" 
+ />
+ <node
+  pkg="agitr"
+  type="subpose"
+  name="subpose"
+  launch-prefix="xterm -e"
+ />
+ <node
+  pkg="agitr"
+  type="pubvel"
+  name="pubvel"
+  launch-prefix="xterm -e"
+ />
+</launch>

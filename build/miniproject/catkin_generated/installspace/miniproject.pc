@@ -1,0 +1,8 @@
+prefix=/home/viki/miniproject_ws/install
+
+Name: miniproject
+Description: Description of miniproject
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/viki/miniproject_ws/install/lib 
+Requires: 

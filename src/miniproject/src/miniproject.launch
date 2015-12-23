@@ -1,0 +1,20 @@
+<launch>
+ <node 
+  pkg="turtlesim"
+  type="turtlesim_node"
+  name="turtlesim"
+  required="true" 
+ />
+ <node
+  pkg="miniproject"
+  type="subpose"
+  name="subpose"
+  launch-prefix="xterm -e"
+ />
+ <node
+  pkg="miniproject"
+  type="pubvel"
+  name="pubvel"
+  launch-prefix="xterm -e"
+ />
+</launch>
